@@ -1,6 +1,6 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-const ws = new WebSocket('wss://example-app.onrender.com/ws')
+const ws = new WebSocket('wss://test-backend-7bl5.onrender.com/ws')
 
 ws.onopen = () => {
   ws.send('Hello from the client!')
