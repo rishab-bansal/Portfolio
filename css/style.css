@@ -112,3 +112,9 @@
         hr{
             margin: 25px 0;
         }
+
+        #canvas {
+            background: green;
+            margin: 100px;
+            border: 5px solid black;
+        }    
